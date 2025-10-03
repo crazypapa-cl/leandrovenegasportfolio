@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Proyectos() {
   return (
-    <div className="flex justify-center p-5 col-span-3 ">
-       <div className="prose prose-neutral dark:prose-invert">
+    <div className="flex flex-col items-center w-lg m-10" >
+      <div className="prose prose-neutral dark:prose-invert">
       <h2 className="text-2xl">Perfil Profesional</h2>
       <p>
          Productor Creativo en Marketing y Multimedia 
@@ -12,9 +12,8 @@ export default function Proyectos() {
          Combino creatividad, estrategia y tecnología para desarrollar
           proyectos innovadores que conectan con audiencias y generan impacto.
         </p>
- 
-</div>
-  
+        </div>
+              <Link href='/'><li>Back</li></Link>
       </div>
   );
 }
