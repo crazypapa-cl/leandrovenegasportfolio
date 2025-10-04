@@ -1,17 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Navbar from "./components/nav";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-
-      <ul>   
-        <Link href='portafolio'><li>Portafolio</li></Link>
-        <Link href='perfil'><li>Perfil</li></Link>
-        <Link href='cv'>CV</Link>
-      </ul>
-         
-       
       <div className="grid grid-cols-1 sm:grid-cols-3  "> 
         <Image
           src="/profile.png"
