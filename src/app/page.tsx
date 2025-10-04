@@ -3,28 +3,25 @@ import Link from "next/link";
 import Navbar from "./components/nav";
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="font-sans items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <div className="grid grid-cols-1 sm:grid-cols-3  "> 
         <Image
           src="/profile.png"
-          alt="Profile photo"
+          alt="Foto de perfil de Leandro Venegas Parraguez"
           className="flex col-span-2 sm:col-span-1 content-center 
           rounded-full bg-gray-100 block
          lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto  
          sm:ml-5 sm:mb-5 grayscale hover:grayscale-0
-         "
-          unoptimized
+         "unoptimized
           width={160}
           height={160}
           priority
         />
 <div className="prose prose-neutral dark:prose-invert">
-
 <h1 className="text-3xl font-bold italic ">Leandro Veneas</h1>
 <h2 className="text-2xl">content Manager</h2>
 <h3>Creador de contenidos para los nuevos medios</h3>
-<p className="text-2xl">Idiomas</p>
-<p className="">Español nativo | Inglés intermedio</p>
+
 </div>
 
      {/*<h1 className=" col-span-2 text-center content-center text-3xl font-medium "> "Transformo tus ideas en proyectos de marketing digital."</h1>*/}
@@ -45,10 +42,7 @@ export default function Home() {
           <li>Arte & Cultura</li>
         </ul>
       </div>*/}
-   
-
-     
-
+  
     </div>
     </div>
   );
