@@ -31,7 +31,7 @@ const menu = [
     export default function Navbar(){
         return (
     <ul className="flex gap-4 justify-center m-5 p-3 text-md italic font-bold bg-gray-900">
-    { menu.map(el=><Link href={el.path}  key={el.id}><li>{el.name}</li></Link>)}
+    { menu.map(el=><Link href={`/${el.path}`}  key={el.id}><li>{el.name}</li></Link>)}
     </ul>
             
         )

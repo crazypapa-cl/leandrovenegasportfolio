@@ -1,4 +1,3 @@
-'use client'
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -87,8 +86,8 @@ const PortafolioIndex = ()=>{
    return<ul className="bg-gray-900 rounded-xl p-5 m-2 ">{
     ...works.reverse().map(el=>
    <Link key={el.name} 
-   href={`${pathpage}/${el.name}`}>
-    <li className="text-center m-2 p-2 bg-gray-800 hover:bg-gray-900">
+   href={`${pathpage}/${el.path}`}>
+    <li className="text-center m-2 p-2 bg-gray-800 hover:bg-gray-900 hover:border-red-500 rounded-md ">
     <p className="inline pr-4">{el.name}</p>
     <small>**********</small>
     <span className="pl-4">
