@@ -3,7 +3,8 @@ import Link from "next/link";
 import Navbar from "./components/nav";
 export default function Home() {
   return (
-    <div className="font-sans items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="font-sans items-center justify-items-center 
+    min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <div className="grid grid-cols-1 sm:grid-cols-3  "> 
         <Image
           src="/profile.png"
@@ -18,7 +19,7 @@ export default function Home() {
           priority
         />
 <div className="prose prose-neutral dark:prose-invert">
-<h1 className="text-3xl font-bold italic ">Leandro Veneas</h1>
+<h1 className="text-3xl font-bold italic ">Leandro Venegas</h1>
 <h2 className="text-2xl">content Manager</h2>
 <h3>Creador de contenidos para los nuevos medios</h3>
 

@@ -6,7 +6,7 @@ export default function Proyectos() {
       <h1 className="text-white text-3xl font-bold">Mutatis music Festival</h1>
          <h2>Dos dias de puro talento local en valparaiso</h2>
          <p className="text-sm italic">7 y 8 de abril 2023</p>
-        
+        <Image src='public/portafolio/mutatis/img/mutatis-logo.png' alt='Mutatis Logo' width={500} height={500}></Image>
          <Link href='/'><li>Home</li></Link>
     </div>
   );
