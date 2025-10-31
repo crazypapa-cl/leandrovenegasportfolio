@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RutaContentManager//V1.0//EN
+CALSCALE:GREGORIAN
+
+BEGIN:VTIMEZONE
+TZID:America/Santiago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0300
+TZNAME:CLST
+DTSTART:20250907T000000
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0400
+TZNAME:CLT
+DTSTART:20260406T000000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+
+; SEMANA 1: REBRANDING Y SETUP
+BEGIN:VEVENT
+UID:20251103T090000-1@ruta_manager
+DTSTART;TZID=America/Santiago:20251103T090000
+DTEND;TZID=America/Santiago:20251103T130000
+SUMMARY:[PRIORIDAD] Rebranding CV/LinkedIn a Content Manager
+DESCRIPTION:Actualizar Título\, Frase de Valor y CV con enfoque estratégico (Content Manager & Estratega Digital).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251104T100000-2@ruta_manager
+DTSTART;TZID=America/Santiago:20251104T100000
+DTEND;TZID=America/Santiago:20251104T140000
+SUMMARY:[ESTUDIO] Iniciar Fundamentos de Google Analytics 4 (GA4)
+DESCRIPTION:Comenzar el curso gratuito de GA4 en Google Skillshop. Objetivo: Dominar el lenguaje del ROI.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251107T140000-3@ruta_manager
+DTSTART;TZID=America/Santiago:20251107T140000
+DTEND;TZID=America/Santiago:20251107T160000
+SUMMARY:[HERRAMIENTAS] Crear QR Link y Tarjeta Digital
+DESCRIPTION:Crear QR que enlaza al portafolio optimizado y diseñar el mensaje de la tarjeta de presentación (digital o impresa).
+END:VEVENT
+
+; SEMANA 2: OFERTA Y GUION DE VENTA
+BEGIN:VEVENT
+UID:20251110T090000-4@ruta_manager
+DTSTART;TZID=America/Santiago:20251110T090000
+DTEND;TZID=America/Santiago:20251110T140000
+SUMMARY:[VENTA] Desarrollar Guion de Venta + Menú de Servicios
+DESCRIPTION:Redactar el pitch de 5 pasos y definir los precios de los 4 paquetes de servicios (Auditoría\, Full Stack\, etc.).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251112T130000-5@ruta_manager
+DTSTART;TZID=America/Santiago:20251112T130000
+DTEND;TZID=America/Santiago:20251112T160000
+SUMMARY:[PORTAFOLIO] Reescribir 3 Proyectos con Lenguaje de ROI
+DESCRIPTION:Modificar las descripciones de proyectos destacando el 'impacto' y la 'estrategia' en lugar de solo la 'producción'.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251114T090000-6@ruta_manager
+DTSTART;TZID=America/Santiago:20251114T090000
+DTEND;TZID=America/Santiago:20251114T150000
+SUMMARY:[META] Finalizar y Certificar GA4
+DESCRIPTION:Completar la certificación de Google Analytics 4. ¡Prioridad máxima!
+END:VEVENT
+
+; SEMANA 3: ESPECIALIZACIÓN Y BASE ANALÍTICA
+BEGIN:VEVENT
+UID:20251117T100000-7@ruta_manager
+DTSTART;TZID=America/Santiago:20251117T100000
+DTEND;TZID=America/Santiago:20251117T180000
+SUMMARY:[ESTUDIO] Iniciar Certificación de Meta Ads (Facebook/IG)
+DESCRIPTION:Comenzar el estudio de Meta Blueprint (Ads) para optimizar el contenido para tráfico pagado.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251119T140000-8@ruta_manager
+DTSTART;TZID=America/Santiago:20251119T140000
+DTEND;TZID=America/Santiago:20251119T170000
+SUMMARY:[ESTRATEGIA] Definir y Listar 10 Clientes Ideales (Valpo/Viña)
+DESCRIPTION:Usar el archivo CSV creado y buscar 5 prospectos más con alto potencial para la temporada de verano/Año Nuevo.
+END:VEVENT
+
+; SEMANA 4: LANZAMIENTO Y PRIMEROS CONTACTOS
+BEGIN:VEVENT
+UID:20251124T130000-9@ruta_manager
+DTSTART;TZID=America/Santiago:20251124T130000
+DTEND;TZID=America/Santiago:20251124T160000
+SUMMARY:[ACCIÓN] Personalización de Estrategia para 3 Prospectos
+DESCRIPTION:Preparar un mini-pitch personalizado (3 puntos) para los clientes más prometedores.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251126T100000-10@ruta_manager
+DTSTART;TZID=America/Santiago:20251126T100000
+DTEND;TZID=America/Santiago:20251126T140000
+SUMMARY:[LANZAMIENTO] Primeros Pitches de Venta y Visitas Presenciales
+DESCRIPTION:Iniciar contacto digital (pitch) y visitas a comercios locales de Valparaíso/Viña con tarjeta QR.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251128T090000-11@ruta_manager
+DTSTART;TZID=America/Santiago:20251128T090000
+DTEND;TZID=America/Santiago:20251128T130000
+SUMMARY:[ESTUDIO] Inicio de Curso SEO de HubSpot
+DESCRIPTION:Comenzar el curso gratuito de SEO para fortalecer la estrategia de contenido orgánico.
+END:VEVENT
+
+END:VCALENDAR
