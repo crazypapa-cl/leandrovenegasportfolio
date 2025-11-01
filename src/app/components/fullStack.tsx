@@ -11,6 +11,7 @@ export default function FullStack() {
       <span className={`${russoOne.className} text-gray-100 text-2xl ml-4 leading-none`}>
         FULL STACK
       </span>
+      
     </div>
   );
 }

@@ -17,8 +17,11 @@ return (
 <div className="bg-linear-to-t from-sky-500 to-indigo-500 ">
   <div className="bg-[url(/malla.svg)] bg-repeat">
   <FullStack/>
+{ /* <span className='absolute right-5 sm:right-10 bg-white/20 h-full  rounded-lg  shadow-lg  c  '>L</span>
+<div className="absolute right-5 font-bold text-xl -rotate-11 ">SEO MARKETING </div>
+*/}
   <div className="mx-auto  max-w-sm p-6  h-screen  flex flex-col justify-center ">
-<div className=" mx-full p-4 bg-gray-900/10 backdrop-blur-sm items-center justify-between grid grid-cols-3  rounded-lg   "> 
+<div className=" mx-full p-4 bg-gray-900/10 backdrop-blur-sm items-center justify-between grid grid-cols-3  rounded-lg shadow-lg    "> 
 <Avatar url="./profile.png"  className={' shadow-2xl col-span-3 sm:col-span-1 '}/>
 <div className="shadow-2xl bg-gray-800 sm:ml-4 col-span-3 sm:col-span-2 p-3 rounded-lg prose prose-neutral dark:prose-invert">
     <h2 className={`${russoOne.className} text-gray-300 text-2xl sm:text-3xl  `}>CONTENT MANAGER</h2>
@@ -32,7 +35,12 @@ return (
 </div>
 </div>
 <div className="w-full grid grid-cols-3 mt-8 gap-4 ">
- <Card className="col-span-3"><p>Content Manager con background en Producción Audiovisual y Diseño.</p></Card>
+  
+ <Card className="col-span-3">
+  
+  <p>Content Manager con background en Producción Audiovisual y Diseño.</p>
+ 
+ </Card>
   <Card className="col-span-3"><p>Especializado en crear campañas digitales que gestionan el ciclo de ventas completo</p></Card>
   <Card className="col-span-3"><p>del Reel al ROI, asegurando la eficiencia del presupuesto de Ads.”</p></Card>
     <Card className="col-span-3"><h3 className="text-2xl
