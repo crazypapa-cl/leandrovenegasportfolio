@@ -7,8 +7,7 @@ export default function Avatar({ url, className }: { url: string, className: str
         <Image
                   src={url}
                   alt="Foto de perfil de Leandro Venegas Parraguez"
-                  className={`${className} rounded-full lg:mt-5  lg:mb-5 mb-5 mx-auto  
-                 sm:ml-5 grayscale hover:grayscale-0`}
+                  className={`${className} rounded-full mx-auto grayscale hover:grayscale-0`}
                   unoptimized
                   width={160}
                   height={160}
