@@ -5,6 +5,7 @@ import { Russo_One } from 'next/font/google'
 import Card from "./components/card";
 import Avatar from "./components/avatart";
 import FullStack from "./components/fullStack";
+import ContentFullStack from "./components/myStack";
 
 const russoOne = Russo_One({
   weight: "400",
@@ -28,7 +29,7 @@ return (
  <div className="flex items-center bg-black/20 rounded-lg p-2 mb-4 ">
    <h1 className="text-gray-300 col-span-1 text-xl italic ">Leandro Venegas</h1>
   <span className=" "><svg viewBox="0 0 24 24" fill="currentColor" className="pt-1 -rotate-90 size-5">
-  <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+  <path fillRule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clipRule="evenodd" />
 </svg>
 </span>
  </div>
@@ -43,11 +44,12 @@ return (
  </Card>
   <Card className="col-span-3"><p>Especializado en crear campañas digitales que gestionan el ciclo de ventas completo</p></Card>
   <Card className="col-span-3"><p>del Reel al ROI, asegurando la eficiencia del presupuesto de Ads.”</p></Card>
-    <Card className="col-span-3"><h3 className="text-2xl
-    ">Habilidades</h3></Card>
+  <Card className="col-span-3"><h3 className="text-2xl">Habilidades</h3></Card>
+
 </div >
 </div>
 </div>
+  <ContentFullStack></ContentFullStack>
 </div>
   )
 } 
