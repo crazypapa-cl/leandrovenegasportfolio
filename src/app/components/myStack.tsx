@@ -82,7 +82,7 @@ export default function ContentFullStack() {
   ];
 
   return (
-    <section className="flex flex-col items-center py-12 px-6 text-gray-100 bg-gradient-to-b from-gray-900 to-black">
+    <section className="flex flex-col items-center py-12 px-6 text-gray-100 ">
       <div className="flex justify-between w-full max-w-4xl mb-8">
         <h2 className="text-3xl font-bold tracking-tight">
           {language === "es" ? "Mi Full Stack de Contenidos" : "My Content Full Stack"}
