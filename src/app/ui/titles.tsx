@@ -1,12 +1,15 @@
-import { Children, ReactNode } from "react";
+import { ReactNode } from "react";
 
 interface TitlesProps {
     children:ReactNode;
+    className?:string
+
 }
 
-function TitleOne({children}:TitlesProps){
+function TitleOne({children,className}:TitlesProps){
     return(
-         <h1 className="text-3xl font-bold ">
+       
+         <h1 className= {`text-3xl font-bold ${className || ''}`}>
             {children}
          </h1>
     )
