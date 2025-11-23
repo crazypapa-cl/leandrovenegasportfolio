@@ -6,9 +6,9 @@ import {ParraOne , ParraTwo} from "./ui/parraFrase";
 import ListOne from "./ui/lists";
 import CarListOne from "./ui/cardLists";
 import SectionOne from "./ui/sections";
-import Image from "next/image";
 import MapIcon from "./ui/icons/mapIcon";
 import Avatar from "./components/avatart";
+import Image from "next/image";
 
 export default function home(){
   return (
@@ -36,16 +36,16 @@ para lograr más visibilidad, en Google Maps.
 </div>
 
   </SectionOne>
- <SectionOne className="h-screen">
+ <SectionOne >
   <Link href={'/leandro-venegas'}>
   <Avatar url="./profile.png"  className={' shadow-2xl col-span-3 sm:col-span-1 '}/>
   </Link>
-  <ParraTwo>Soy Leandro consultor de marketing en la quinta región, y quiero mostrarte lo que descubrí para que cualquier negocio local gane visibilidad real en Google usando google Maps.
-</ParraTwo>
-<ParraTwo>
-No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps.
-Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que estan en la calle buscando negocios en sus celulares.</ParraTwo>
+  <ParraTwo>Soy <Link href={'/leandro-venegas'}>Leandro Venegas</Link> consultor de marketing en la quinta región, </ParraTwo>
+  <ParraTwo>quiero mostrarte lo que descubrí sobre visibilidad real en Google usando google Maps.</ParraTwo>
+  <div><Image src='/google-business-profile/resultados-local-pack-cafe-valparaiso.png' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+  <ParraTwo>No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps. Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que estan en la calle buscando negocios en sus celulares.</ParraTwo>
   <TitleTwo>Mientras todos hablan de Inteligencia Artificial… tus clientes siguen buscando en Google Maps.</TitleTwo>
+
   <ParraOne>Las marcas grandes invierten millones, los algoritmos cambian, y las redes sociales suben y bajan.Pero hay una verdad que no cambia</ParraOne>
   <ParraOne>📍 La decisión de compra local ocurre en Google Maps.</ParraOne>
   <ParraOne>Cuando alguien busca “tienda en Valparaíso”, Google elige qué mostrar. Si tu negocio no está en el Top 3, simplemente queda fuera del mapa. Y no es tu culpa.Google nunca explicó cómo funciona. Nosotros sí.</ParraOne>

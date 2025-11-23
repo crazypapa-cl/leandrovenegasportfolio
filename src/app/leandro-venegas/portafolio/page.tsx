@@ -1,6 +1,6 @@
 
 'use client'
-import PortaFolioIndex from "../components/portaFolioIndex"
+import PortaFolioIndex from "./portaFolioIndex"
 export default function Portafolio() {
 
   return (

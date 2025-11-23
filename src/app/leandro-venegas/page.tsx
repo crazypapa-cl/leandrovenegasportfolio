@@ -24,6 +24,7 @@ return (
   <div className="mx-auto   p-6     justify-center  ">
 <div className=" mx-full p-4 bg-gray-900/10 backdrop-blur-sm items-center justify-between grid grid-cols-3  rounded-lg shadow-lg    "> 
 <Avatar url="./profile.png"  className={' shadow-2xl col-span-3 sm:col-span-1 '}/>
+
 <div className="shadow-2xl bg-gray-800 sm:ml-4 col-span-3 sm:col-span-2 p-3 rounded-lg prose prose-neutral dark:prose-invert">
     <h2 className={`${russoOne.className} text-gray-300 text-2xl sm:text-3xl  `}>Consultor de Marketing Local</h2>
  <div className="flex items-center bg-black/20 rounded-lg p-2 mb-4 ">
@@ -35,6 +36,7 @@ return (
  </div>
 </div>
 </div>
+<Link href='/leandro-venegas/portafolio'>My PortaFolio</Link>
 <div className="w-full  mt-8 gap-4 ">
    <ContentFullStack></ContentFullStack>
 </div >
