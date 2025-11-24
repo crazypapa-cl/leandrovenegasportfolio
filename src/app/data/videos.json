@@ -1,0 +1,26 @@
+[
+  {
+    "id": "V201",
+    "proyectoId": "P001", 
+    "titulo": "Demo de Feature X para Cliente A",
+    "url": "https://www.youtube.com/watch?v=abcde123",
+    "duracionSegundos": 125,
+    "tipo": "DEMO"
+  },
+  {
+    "id": "V202",
+    "proyectoId": "P001",
+    "titulo": "Explicación Técnica del Backend",
+    "url": "https://www.vimeo.com/xyz987",
+    "duracionSegundos": 350,
+    "tipo": "TECNICO"
+  },
+  {
+    "id": "V203",
+    "proyectoId": "P002", 
+    "titulo": "Animación de Marketing",
+    "url": "https://www.youtube.com/watch?v=marketingVid",
+    "duracionSegundos": 65,
+    "tipo": "ANIMACION"
+  }
+]

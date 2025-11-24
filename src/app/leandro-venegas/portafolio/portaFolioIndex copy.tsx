@@ -85,17 +85,14 @@ const lasOrder = works.reverse();
 const PortafolioIndex = ()=>{
    const pathpage = usePathname();
 
-   return<ul className=" rounded-xl p-5 m-2 ">{
+   return<ul className=" bg-gray-900 rounded-xl p-5 m-2 ">{
     lasOrder.map(el=>
    <Link key={el.name} 
    href={`${pathpage}/${el.path}`}>
-    <li className="mt-4 ">
-    <p className="underline">{el.name}</p>
-    <div className="text-gray-600 text-xs">
-         <small className="block  ">{el.workstation}</small>
-    <p className="">    {el.year}</p>
-    </div>
-   
+    <li className="text-gray-400 m-2 p-2 bg-gray-700 rounded-md border-indigo-800 hover:border-gray hover:border-b-4 hover:bg-gray-900 ">
+    <p className="text-gray-300 text-xl inline pr-4">{el.name}</p>
+    <small className="block">{el.workstation}</small>
+    <p className="text-xs">    {el.year}</p>
     
     </li>
     </Link>)}</ul>

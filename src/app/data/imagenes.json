@@ -1,0 +1,26 @@
+[
+  {
+    "id": "I301",
+    "proyectoId": "P001",
+    "titulo": "Mockup del nuevo Dashboard",
+    "path": "/images/p001/dashboard_v2.png",
+    "resolucion": "2560x1440",
+    "formato": "PNG"
+  },
+  {
+    "id": "I302",
+    "proyectoId": "P001",
+    "titulo": "Diagrama de Arquitectura del Sistema",
+    "path": "/images/p001/arquitectura_lambda.svg",
+    "resolucion": "800x600",
+    "formato": "SVG"
+  },
+  {
+    "id": "I303",
+    "proyectoId": "P001",
+    "titulo": "Captura móvil del login",
+    "path": "/images/p001/login_mobile.jpg",
+    "resolucion": "720x1280",
+    "formato": "JPEG"
+  }
+]
