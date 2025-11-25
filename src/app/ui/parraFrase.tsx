@@ -15,7 +15,7 @@ function ParraOne({children,className}:ParraProps){
 function ParraTwo({children,className}:ParraProps){
     return(
        
-        <p className= {` text-center text-2xl sm:text-base mt-2 text-gray-200 ${className || ''}`}>
+        <p className= {` text-center text-2xl sm:text-base mt-8 text-gray-200  ${className || ''}`}>
             {children}
         </p>
     )

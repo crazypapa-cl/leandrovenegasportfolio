@@ -17,7 +17,7 @@ export default function home(){
   <div className=" max-w-xl max-auto ">    
   <img src="https://css-tianguis.com/wp-content/uploads/2020/03/google-maps-links-1024x546.png" alt="" className="  absolute inset-0 -z-10 size-full object-cover object-right md:object-center" />
   <SectionOne className='h-screen flex flex-col  justify-evenly  '>
-
+ggggggggt
  <div className="flex flex-col gap-4 items-center"> 
   <TitleOne className='text-6xl text-center text-shadow-lg/30 mb-8'>¿Tu negocio está en el mapa ?</TitleOne>
   <MapIcon></MapIcon>
@@ -40,9 +40,21 @@ para lograr más visibilidad, en Google Maps.
   <Link href={'/leandro-venegas'}>
   <Avatar url="./profile.png"  className={' shadow-2xl col-span-3 sm:col-span-1 '}/>
   </Link>
-  <ParraTwo>Soy <Link href={'/leandro-venegas'}>Leandro Venegas</Link> consultor de marketing en la quinta región, </ParraTwo>
-  <ParraTwo>quiero mostrarte lo que descubrí sobre visibilidad real en Google usando google Maps.</ParraTwo>
-  <div><Image src='/google-business-profile/resultados-local-pack-cafe-valparaiso.png' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+  <ParraTwo >Soy <Link href={'/leandro-venegas'}>Leandro Venegas</Link> consultor de marketing en la quinta región, quiero mostrarte lo que descubrí sobre visibilidad real en Google usando google Maps.</ParraTwo>
+  <ParraTwo className="mt-8">imagina que somos una persona llegando a valparaiso y que quiere tomar  un buen cafe, lo primero que hace busacr en su celular la palabra cafe </ParraTwo>
+  <div><Image className="mt-8" src='/google-business-profile/barra-de-busqueda-google-cafe-local-pack-valparaiso.jpg' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+  <ParraTwo>este resultado se llama Local pack y es increible solo imagina tu negocio apreciendo entre los primeros 3</ParraTwo>
+  <div><Image className="mt-8" src='/google-business-profile/yhhhresultados-local-pack-cafe-valparaiso.png' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+  <ParraTwo>y luego Magia ya estoy en tu google bussines que crees, solo falta un poco para convercer a esta persona de tomar las indiciones para ir a tu local</ParraTwo>
+  <div><Image className="mt-8" src='/google-business-profile/resultado-google-my-bussines-local-pack-valparaiso-cafe.jpg' width={350} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+    <ParraTwo>Lo que tienes aqui es un led calificado, si tienes otro tipo de negocio puedes agendar una cita por una llamada telefononica</ParraTwo>
+    <div className="content-center"><Image className="mt-8" src='/google-business-profile/resultado-google-my-bussines-local-pack-valparaiso-icono-como-llegar.jpg' width={180} height={180} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+      <ParraTwo>y de aqui para delante es una cantidad de cosas que puedes hacer para conseguir este cliente y es alli donde estas tu</ParraTwo>
+    <Starts>★★★★★</Starts>
+    <ParraTwo>Te invito a decargar Mi libro electronico completamente gratis, es un Check List de todos lo  necesitas para poder ranquier en las primeras busquedas en con tu negocio local</ParraTwo>
+ <div className="content-center"><Image className="mt-8" src='/google-business-profile/Gemini_Generated_Image_intvqtintvqtintv.png' width={250} height={250} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+
+  <ButtonUno  url='/leandro'>GRATIS</ButtonUno>
   <ParraTwo>No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps. Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que estan en la calle buscando negocios en sus celulares.</ParraTwo>
   <TitleTwo>Mientras todos hablan de Inteligencia Artificial… tus clientes siguen buscando en Google Maps.</TitleTwo>
 
