@@ -16,7 +16,7 @@ export default function home(){
   <div className=" flex flex-col justify-center items-center  bg-gray-900/80  prose prose-neutral dark:prose-invert"> 
   <div className=" max-w-xl max-auto ">    
   <img src="https://css-tianguis.com/wp-content/uploads/2020/03/google-maps-links-1024x546.png" alt="" className="  absolute inset-0 -z-10 size-full object-cover object-right md:object-center" />
-  <SectionOne className='h-screen flex flex-col  justify-evenly  '>
+  <SectionOne className='h-screen flex flex-col  justify-evenly'>
  <div className="flex flex-col gap-4 items-center"> 
   <TitleOne className='text-6xl text-center text-shadow-lg/30 mb-8'>¿Tu negocio está en el mapa ?</TitleOne>
   <MapIcon></MapIcon>
@@ -81,7 +81,7 @@ para lograr más visibilidad, en Google Maps.
     <ListOne check>2. Optimización profesional de Google Business Descripción, categorías, atributos, servicios, fotos, enlaces, todo.</ListOne>
     <ListOne check>3. Fotos profesionales Google prioriza contenido original y reciente. Subimos 10 - 20 imágenes optimizadas.</ListOne>
     <ListOne check>4. Video-storytelling Un micro-video que muestra tu negocio, tu historia y tu propuesta de valor.</ListOne>
-    <ListOne check>5. Publicaciones semanales Mantienen tu ficha activa y aumentan la relevancia.</ListOne> 
+    <ListOne chck>5. Publicaciones semanales Mantienen tu ficha activa y aumentan la relevancia.</ListOne> 
     <ListOne check>6. Gestión de reseñas Plantillas, respuestas, reputación y estrategia para obtener nuevas reseñas positivas.</ListOne>
    </ul> 
    <ButtonUno url='/'>Mostrar Planes</ButtonUno>

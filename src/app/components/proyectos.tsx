@@ -1,6 +1,6 @@
 
-interface Proyecto {
-    id:number;
+export interface Proyecto {
+    id:string;
     nombre:string;
     anio:number;
 }
