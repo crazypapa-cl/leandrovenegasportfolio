@@ -43,7 +43,7 @@ para lograr más visibilidad, en Google Maps.
   <ParraTwo className="mt-8">imagina que somos una persona llegando a valparaiso y que quiere tomar  un buen cafe, lo primero que hace busacr en su celular la palabra cafe </ParraTwo>
   <div><Image className="mt-8" src='/google-business-profile/barra-de-busqueda-google-cafe-local-pack-valparaiso.jpg' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
   <ParraTwo>este resultado se llama Local pack y es increible solo imagina tu negocio apreciendo entre los primeros 3</ParraTwo>
-  <div><Image className="mt-8" src='/google-business-profile/yhhhresultados-local-pack-cafe-valparaiso.png' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
+  <div><Image className="mt-8" src='/google-business-profile/resultados-local-pack-cafe-valparaiso.png' width={500} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
   <ParraTwo>y luego Magia ya estoy en tu google bussines que crees, solo falta un poco para convercer a esta persona de tomar las indiciones para ir a tu local</ParraTwo>
   <div><Image className="mt-8" src='/google-business-profile/resultado-google-my-bussines-local-pack-valparaiso-cafe.jpg' width={350} height={350} alt='Captura de pantalla de los resultados del Local Pack de Google Maps para la búsqueda de cafeterías en Valparaíso.'></Image></div>
     <ParraTwo>Lo que tienes aqui es un led calificado, si tienes otro tipo de negocio puedes agendar una cita por una llamada telefononica</ParraTwo>
