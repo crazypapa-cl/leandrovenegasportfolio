@@ -1,7 +1,15 @@
 
+interface Proyecto {
+    id:number;
+    nombre:string;
+    anio:number;
+}
 
+interface ListaProps {
+  proyectos: Proyecto[]; 
+}
 
-function Lista({proyectos}){ // ⬅️ Debes aceptar los props aquí
+function Lista({proyectos} : ListaProps){ // ⬅️ Debes aceptar los props aquí
     console.log(proyectos)
     return(
         <div>

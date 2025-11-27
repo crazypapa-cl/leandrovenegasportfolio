@@ -17,7 +17,6 @@ export default function home(){
   <div className=" max-w-xl max-auto ">    
   <img src="https://css-tianguis.com/wp-content/uploads/2020/03/google-maps-links-1024x546.png" alt="" className="  absolute inset-0 -z-10 size-full object-cover object-right md:object-center" />
   <SectionOne className='h-screen flex flex-col  justify-evenly  '>
-ggggggggt
  <div className="flex flex-col gap-4 items-center"> 
   <TitleOne className='text-6xl text-center text-shadow-lg/30 mb-8'>¿Tu negocio está en el mapa ?</TitleOne>
   <MapIcon></MapIcon>
