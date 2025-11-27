@@ -81,7 +81,7 @@ para lograr más visibilidad, en Google Maps.
     <ListOne check>2. Optimización profesional de Google Business Descripción, categorías, atributos, servicios, fotos, enlaces, todo.</ListOne>
     <ListOne check>3. Fotos profesionales Google prioriza contenido original y reciente. Subimos 10 - 20 imágenes optimizadas.</ListOne>
     <ListOne check>4. Video-storytelling Un micro-video que muestra tu negocio, tu historia y tu propuesta de valor.</ListOne>
-    <ListOne chck>5. Publicaciones semanales Mantienen tu ficha activa y aumentan la relevancia.</ListOne> 
+    <ListOne check>5. Publicaciones semanales Mantienen tu ficha activa y aumentan la relevancia.</ListOne> 
     <ListOne check>6. Gestión de reseñas Plantillas, respuestas, reputación y estrategia para obtener nuevas reseñas positivas.</ListOne>
    </ul> 
    <ButtonUno url='/'>Mostrar Planes</ButtonUno>
