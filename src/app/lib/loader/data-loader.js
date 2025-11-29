@@ -12,9 +12,15 @@ const empresaMap = rawEmpresas.reduce((mapaAcumulador, empresaActual)=>{
     return mapaAcumulador;
 },{})
 
-const videoMap = rawVideos.reduce((map, item) => { // Diccionario de Videos
-        map[item.id] = item;
-        return map;
+const videosByProyectoMap = rawVideos.reduce((mapaAcumulador, videoActual) => {
+        const proyectoId = videoActual.proyectoId;
+        // Inicializa el array si es la primera vez que vemos este proyectoId
+        if (!mapaAcumulador[proyectoId]) {
+            mapaAcumulador[proyectoId] = [];
+        }
+        // Agrega el video al array de su proyecto
+        mapaAcumulador[proyectoId].push(videoActual); 
+        return mapaAcumulador;
     }, {});
 
     const imagenMap = rawImagenes.reduce((map, item) => { // Diccionario de Imágenes
@@ -22,16 +28,17 @@ const videoMap = rawVideos.reduce((map, item) => { // Diccionario de Videos
         return map;
     }, {});
 
+
 const proyectosCompletos = rawProyectos.map(proyectoCrudo=>{
 
         const empresa = empresaMap[proyectoCrudo.empresaId];
-        const video = videoMap[proyectoCrudo.videoId];
+        const videosDelProyecto = videosByProyectoMap[proyectoCrudo.id] || [];
         const imagen = imagenMap[proyectoCrudo.imagenId];
 
     return {
         ...proyectoCrudo,
             empresa: empresa,   // Conexión de Empresa
-            video: video,       // Conexión de Video
+            video: videosDelProyecto,       // Conexión de Video
             imagen: imagen      // Conexión de Imagen
     };
 })

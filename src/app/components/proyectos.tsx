@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 export interface Proyecto {
     id:string;
     nombre:string;
@@ -15,9 +15,11 @@ function Lista({proyectos} : ListaProps){ // ⬅️ Debes aceptar los props aqu�
         <div>
             <ul>
                 {proyectos.map(el=>{
-                    return <li key={el.id} className="text-xs">
+                    return <Link href={`/leandro-venegas/portafolio/${el.id}`} key={el.id}>
+                    <li key={el.id} className="text-xs">
                         <span >{el.nombre} - {el.anio}   </span>
                     </li>
+                    </Link>
                 })}
             </ul>
         </div>

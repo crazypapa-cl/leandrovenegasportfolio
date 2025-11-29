@@ -1,6 +1,5 @@
 // ./src/app/leandro-venegas/portafolio/page.tsx
 import Lista from '../../components/proyectos'
- import type { Proyecto } from '../../components/proyectos';
 // 1. Importa la función de procesamiento de datos
 import { getProcessedData } from '../../lib/loader/data-loader';
 

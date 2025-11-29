@@ -1,16 +1,16 @@
 [
   {
-    "id": "V201",
+    "id": "V002",
     "proyectoId": "P001", 
-    "titulo": "Demo de Feature X para Cliente A",
-    "url": "https://www.youtube.com/watch?v=abcde123",
+    "titulo": "Patricio andrade AC2 video depilacion laser",
+    "url": "https://youtu.be/iF26Npdq07A",
     "duracionSegundos": 125,
-    "tipo": "DEMO"
+    "tipo": "Explicativo"
   },
   {
     "id": "V202",
     "proyectoId": "P001",
-    "titulo": "Explicación Técnica del Backend",
+    "titulo": "Patricio andrade AC2 ",
     "url": "https://www.vimeo.com/xyz987",
     "duracionSegundos": 350,
     "tipo": "TECNICO"
