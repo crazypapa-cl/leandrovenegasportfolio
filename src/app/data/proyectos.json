@@ -6,7 +6,7 @@
     "empresaId": "E101", 
     "anio": 2013,
     "tags": ["Next.js", "TypeScript", "GraphQL", "AWS"],
-    "videoIds": ["V002", "V202"],
+    "videoIds": ["V001", "V002"],
     "imagenIds": ["I301", "I302", "I303"]
   },
   {
