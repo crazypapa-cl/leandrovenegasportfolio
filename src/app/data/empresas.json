@@ -1,14 +1,38 @@
 [
   {
     "id": "E101",
-    "nombre": "Innovación Digital S.A.",
+    "nombre": "Andrades Cirugia Estetica",
     "logoUrl": "/assets/logos/innovacion.png",
     "periodo": "2020 - 2024",
     "descripcion": "Desarrollador Full Stack en el equipo de soluciones en la nube, enfocado en Node.js y React."
   },
   {
     "id": "E102",
-    "nombre": "Freelance",
+    "nombre": "Valook",
+    "logoUrl": "/assets/logos/freelance.png",
+    "periodo": "2018 - 2020",
+    "descripcion": "Consultor independiente enfocado en el desarrollo de APIs y optimización de bases de datos."
+  },{
+    "id": "E103",
+    "nombre": "Incoludido",
+    "logoUrl": "/assets/logos/freelance.png",
+    "periodo": "2018 - 2020",
+    "descripcion": "Consultor independiente enfocado en el desarrollo de APIs y optimización de bases de datos."
+  },{
+    "id": "E104",
+    "nombre": "Studio Creativo",
+    "logoUrl": "/assets/logos/freelance.png",
+    "periodo": "2018 - 2020",
+    "descripcion": "Consultor independiente enfocado en el desarrollo de APIs y optimización de bases de datos."
+  },{
+    "id": "E104",
+    "nombre": "Crazy Papa",
+    "logoUrl": "/assets/logos/freelance.png",
+    "periodo": "2018 - 2020",
+    "descripcion": "Consultor independiente enfocado en el desarrollo de APIs y optimización de bases de datos."
+  },{
+    "id": "E104",
+    "nombre": "Rayandola",
     "logoUrl": "/assets/logos/freelance.png",
     "periodo": "2018 - 2020",
     "descripcion": "Consultor independiente enfocado en el desarrollo de APIs y optimización de bases de datos."

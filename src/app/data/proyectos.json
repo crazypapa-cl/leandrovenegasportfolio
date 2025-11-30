@@ -11,12 +11,48 @@
   },
   {
     "id": "P002",
-    "nombre": "API de Microservicios",
-    "descripcion": "Diseño e implementación de una API RESTful para la gestión de inventario.",
+    "nombre": "Valook",
+    "descripcion": "SEO con videos.",
     "empresaId": "E102", 
-    "anio": 2019,
-    "tags": ["Node.js", "Express", "MongoDB"],
+    "anio": 2015,
+    "tags": ["Tutoriales", "Publicidad", "Canal de YouTube"],
     "videoIds": ["V203"],
     "imagenIds": ["I304"]
+  },{
+    "id": "P004",
+    "nombre": "incoludido",
+    "descripcion": "Lideré la migración del frontend de jQuery a Next.js, mejorando la velocidad de carga en un 40%.",
+    "empresaId": "E101", 
+    "anio": 2016,
+    "tags": ["Next.js", "TypeScript", "GraphQL", "AWS"],
+    "videoIds": ["V001", "V002"],
+    "imagenIds": ["I301", "I302", "I303"]
+  },{
+    "id": "P005",
+    "nombre": "Studio Creativo",
+    "descripcion": "Lideré la migración del frontend de jQuery a Next.js, mejorando la velocidad de carga en un 40%.",
+    "empresaId": "E101", 
+    "anio": 2016,
+    "tags": ["Next.js", "TypeScript", "GraphQL", "AWS"],
+    "videoIds": ["V001", "V002"],
+    "imagenIds": ["I301", "I302", "I303"]
+  },{
+    "id": "P006",
+    "nombre": "Crazy Papa",
+    "descripcion": "Lideré la migración del frontend de jQuery a Next.js, mejorando la velocidad de carga en un 40%.",
+    "empresaId": "E101", 
+    "anio": 2016,
+    "tags": ["Next.js", "TypeScript", "GraphQL", "AWS"],
+    "videoIds": ["V001", "V002"],
+    "imagenIds": ["I301", "I302", "I303"]
+  },{
+    "id": "P007",
+    "nombre": "CRAZY ROOM",
+    "descripcion": "Lideré la migración del frontend de jQuery a Next.js, mejorando la velocidad de carga en un 40%.",
+    "empresaId": "E101", 
+    "anio": 2016,
+    "tags": ["Next.js", "TypeScript", "GraphQL", "AWS"],
+    "videoIds": ["V001", "V002"],
+    "imagenIds": ["I301", "I302", "I303"]
   }
 ]
