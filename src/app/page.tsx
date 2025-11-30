@@ -104,7 +104,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg mx-auto"
               />
               <Paragraph className="mt-4">
-                Lo que tienes aquí es un lead calificado. Si tienes otro tipo de negocio, puedes agendar una cita por llamada telefónica.
+                Lo que tienes aquí es un lead calificado.  puedes agendar una cita por llamada telefónica o un pedido.
               </Paragraph>
             </div>
 
@@ -117,11 +117,11 @@ export default function Home() {
                 className="rounded-full shadow-lg"
               />
               <Paragraph>
-                Y de aquí en adelante es una cantidad de cosas que puedes hacer para conseguir este cliente. Es allí donde estás tú.
+                 No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps. 
               </Paragraph>
               <Rating>★★★★★</Rating>
+              <Paragraph>Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que están en la calle buscando negocios en sus celulares.</Paragraph>
             </div>
-
             <div className="text-center space-y-6">
               <Paragraph>
                 Te invito a descargar mi libro electrónico completamente gratis. Es un Check List de todo lo que necesitas para poder rankear en las primeras búsquedas con tu negocio local.
@@ -137,16 +137,8 @@ export default function Home() {
             </div>
           </div>
         </Section>
-
         <Section>
           <div className="space-y-8 text-center max-w-4xl mx-auto">
-            <Paragraph>
-              No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps. Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que están en la calle buscando negocios en sus celulares.
-            </Paragraph>
-            <H2>Mientras todos hablan de Inteligencia Artificial… tus clientes siguen buscando en Google Maps.</H2>
-            <Paragraph>
-              Las marcas grandes invierten millones, los algoritmos cambian, y las redes sociales suben y bajan. Pero hay una verdad que no cambia:
-            </Paragraph>
             <Paragraph className="font-bold text-white">
               📍 La decisión de compra local ocurre en Google Maps.
             </Paragraph>
@@ -155,16 +147,6 @@ export default function Home() {
             </Paragraph>
           </div>
         </Section>
-
-        <Section>
-          <div className="text-center max-w-4xl mx-auto space-y-6">
-            <H2>Tus clientes te buscan… pero encuentran a tu competencia primero.</H2>
-            <Paragraph>
-              Si tu ficha aparece abajo, tiene fotos antiguas, tiene reseñas malas, no tiene publicaciones o simplemente está incompleta, Google la considera “irrelevante”. No importa si tu tienda es la mejor. Google no premia al mejor negocio. Premia a la ficha más optimizada, activa y completa.
-            </Paragraph>
-          </div>
-        </Section>
-
         <Section>
           <div className="text-center max-w-4xl mx-auto space-y-6">
             <H2>Aquí está la oportunidad que casi nadie está aprovechando.</H2>
@@ -179,68 +161,12 @@ export default function Home() {
             </Paragraph>
           </div>
         </Section>
-
         <Section>
           <Card>
             <div className="text-center mb-8">
               <H2>Transformamos tu Perfil de Google en una máquina de atraer clientes.</H2>
-              <Paragraph className="mt-4">Nuestro sistema incluye:</Paragraph>
-            </div>
-
-            <List>
-              <ListItem check>
-                <strong>1. Auditoría completa:</strong> Revisamos tu ranking actual y detectamos por qué Google no te muestra.
-              </ListItem>
-              <ListItem check>
-                <strong>2. Optimización profesional:</strong> Descripción, categorías, atributos, servicios, fotos, enlaces, todo.
-              </ListItem>
-              <ListItem check>
-                <strong>3. Fotos profesionales:</strong> Google prioriza contenido original y reciente. Subimos 10 - 20 imágenes optimizadas.
-              </ListItem>
-              <ListItem check>
-                <strong>4. Video-storytelling:</strong> Un micro-video que muestra tu negocio, tu historia y tu propuesta de valor.
-              </ListItem>
-              <ListItem check>
-                <strong>5. Publicaciones semanales:</strong> Mantienen tu ficha activa y aumentan la relevancia.
-              </ListItem>
-              <ListItem check>
-                <strong>6. Gestión de reseñas:</strong> Plantillas, respuestas, reputación y estrategia para obtener nuevas reseñas positivas.
-              </ListItem>
-            </List>
-
-            <div className="mt-10 text-center">
-              <Button href="/">Mostrar Planes</Button>
             </div>
           </Card>
-
-          <div className="mt-12 max-w-2xl mx-auto">
-            <List>
-              <ListItem><strong>Resultado:</strong></ListItem>
-              <ListItem check>Más visibilidad</ListItem>
-              <ListItem check>Más clics</ListItem>
-              <ListItem check>Más llamadas</ListItem>
-              <ListItem check>Más visitas presenciales</ListItem>
-            </List>
-          </div>
-        </Section>
-
-        <Section>
-          <div className="text-center space-y-6">
-            <H2>¿Quieres saber en qué posición aparece tu negocio?</H2>
-            <Paragraph>Te hacemos una auditoría gratis en menos de 5 minutos.</Paragraph>
-            <Button href="/">Solicitar Auditoría Gratis</Button>
-          </div>
-        </Section>
-
-        <Section>
-          <div className="text-center max-w-4xl mx-auto space-y-6">
-            <H2>Somos un equipo local especializado en Google Business para negocios de Valparaíso y Viña del Mar.</H2>
-            <Paragraph>
-              Creemos en el comercio local. Creemos en negocios reales. Creemos en visibilidad sin humo.
-              <br /><br />
-              Nuestros servicios están diseñados para entregar resultados medibles, no promesas vacías.
-            </Paragraph>
-          </div>
         </Section>
       </Container>
     </main>
