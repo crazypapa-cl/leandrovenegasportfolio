@@ -1,0 +1,8 @@
+{
+    "crons": [
+        {
+            "path": "/api/job/update-ranking",
+            "schedule": "0 6 * * *"
+        }
+    ]
+}
