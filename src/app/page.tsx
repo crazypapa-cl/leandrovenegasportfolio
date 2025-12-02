@@ -60,10 +60,10 @@ export default function Home() {
             </div>
             <div className="md:col-span-2 space-y-6">
               <Paragraph>
-                Soy <Link href="/leandro-venegas" className="text-indigo-400 hover:text-indigo-300 font-semibold">Leandro Venegas</Link>, consultor de marketing en la quinta región. Quiero mostrarte lo que descubrí sobre visibilidad real en Google usando Google Maps.
+                Soy <Link href="/leandro-venegas" className="text-indigo-400 hover:text-indigo-300 font-semibold">Leandro</Link>, consultor de marketing en la quinta región. Quiero mostrarte lo que descubrí sobre visibilidad en Google usando Google Maps.
               </Paragraph>
               <Paragraph>
-                Imagina que somos una persona llegando a Valparaíso y que quiere tomar un buen café. Lo primero que hace es buscar en su celular la palabra "café".
+                Imagina que somos una persona llegando a Valparaíso y que quiere tomar un café. Lo primero que hace es buscar en su celular la palabra "café".
               </Paragraph>
             </div>
           </div>
@@ -79,6 +79,7 @@ export default function Home() {
               />
               <Paragraph className="mt-4">
                 Este resultado se llama <strong>Local Pack</strong> y es increíble. Solo imagina tu negocio apareciendo entre los primeros 3.
+                y no es algo imposible de lograr
               </Paragraph>
             </div>
 
@@ -91,7 +92,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg mx-auto"
               />
               <Paragraph className="mt-4">
-                Y luego... ¡Magia! Ya estoy en tu Google Business. Solo falta un poco para convencer a esta persona de ir a tu local.
+                ¡Magia! esta persona que quiere tomarce un café ya sabe donde ir. solo le queda pedir una indicacion de como llegar.
               </Paragraph>
             </div>
 
@@ -137,37 +138,17 @@ export default function Home() {
             </div>
           </div>
         </Section>
-        <Section>
-          <div className="space-y-8 text-center max-w-4xl mx-auto">
-            <Paragraph className="font-bold text-white">
-              📍 La decisión de compra local ocurre en Google Maps.
-            </Paragraph>
-            <Paragraph>
-              Cuando alguien busca “tienda en Valparaíso”, Google elige qué mostrar. Si tu negocio no está en el Top 3, simplemente queda fuera del mapa. Y no es tu culpa. Google nunca explicó cómo funciona. Nosotros sí.
-            </Paragraph>
-          </div>
-        </Section>
+      
         <Section>
           <div className="text-center max-w-4xl mx-auto space-y-6">
             <H2>Aquí está la oportunidad que casi nadie está aprovechando.</H2>
             <Paragraph>
-              Durante los últimos meses descubrimos algo que cambió todo para negocios locales:
-              <br />
-              👉 Una ficha optimizada + contenido profesional …puede llevar un negocio desde la posición 20 al Top 3 del mapa.
-              <br />
-              Sin anuncios. Sin complicaciones. Solo estrategia + contenido real.
-              <br />
+             Una ficha optimizada + contenido profesional …puede llevar un negocio desde la posición 20 al Top 3 del mapa.
               Y en la Quinta Región, muy pocos lo están haciendo bien. Ese es tu momento de ventaja.
             </Paragraph>
           </div>
         </Section>
-        <Section>
-          <Card>
-            <div className="text-center mb-8">
-              <H2>Transformamos tu Perfil de Google en una máquina de atraer clientes.</H2>
-            </div>
-          </Card>
-        </Section>
+        
       </Container>
     </main>
   );
