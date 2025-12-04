@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const GA_MEASUREMENT_ID = 'G-VCM03VDKVT';
 
 export const metadata: Metadata = {
   title: "Leandro Venegas Content Manager ",
@@ -26,24 +27,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script 
+        strategy="afterInteractive" // Carga el script después de la interacción inicial
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${GA_MEASUREMENT_ID}');
+        `}
+      </Script>
       <body
+  
         className={`${geistSans.variable} ${geistMono.variable}  antialiased`} data-theme="dark"
       >
-        {/* Google Analytics */}
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-LC7P56H75J`}
-        />
-        <Script id="ga-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-LC7P56H75J', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+
         {children}
   
       </body>
