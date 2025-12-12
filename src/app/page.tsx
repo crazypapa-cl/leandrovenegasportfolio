@@ -60,16 +60,8 @@ export default function Home() {
             </div>
             <div className="md:col-span-2 space-y-6">
               <Paragraph>
-                Soy <Link href="/leandro-venegas" className="text-indigo-400 hover:text-indigo-300 font-semibold">Leandro</Link>, consultor de marketing en la quinta región. Quiero mostrarte lo que descubrí sobre visibilidad en Google usando Google Maps.
+                Soy <Link href="/leandro-venegas" className="text-indigo-400 hover:text-indigo-300 font-semibold">Leandro</Link>, consultor de marketing en la quinta región y quiero compartir contigo lo que descubrí sobre visibilidad en google usando google maps.
               </Paragraph>
-              <Paragraph>
-                Imagina que somos una persona llegando a Valparaíso y que quiere tomar un café. Lo primero que hace es buscar en su celular la palabra "café".
-              </Paragraph>
-            </div>
-          </div>
-
-          <div className="mt-12 space-y-12">
-            <div className="text-center">
               <Image
                 src="/google-business-profile/barra-de-busqueda-google-cafe-local-pack-valparaiso.jpg"
                 width={500}
@@ -77,77 +69,62 @@ export default function Home() {
                 alt="Búsqueda de cafeterías en Valparaíso"
                 className="rounded-lg shadow-lg mx-auto"
               />
-              <Paragraph className="mt-4">
-                Este resultado se llama <strong>Local Pack</strong> y es increíble. Solo imagina tu negocio apareciendo entre los primeros 3.
-                y no es algo imposible de lograr
+              <Paragraph>
+                El 46% de todas las búsquedas en Google tienen una intención local, búsquedas de negocios o servicios "cerca de mí” , en esta búsqueda Google muestra su Google Maps con los primeros 3 negocios más relevantes para ti, el denominado local pack.
               </Paragraph>
-            </div>
-
-            <div className="text-center">
-              <Image
+ <Image
                 src="/google-business-profile/resultados-local-pack-cafe-valparaiso.png"
                 width={500}
                 height={350}
                 alt="Resultados Local Pack"
                 className="rounded-lg shadow-lg mx-auto"
               />
-              <Paragraph className="mt-4">
-                ¡Magia! esta persona que quiere tomarce un café ya sabe donde ir. solo le queda pedir una indicacion de como llegar.
+              <Paragraph>
+              Posicionar tu negocio dentro de este anhelado local pack en marketing se denomina SEO local (Search Engine Optimisation Local).
               </Paragraph>
-            </div>
-
-            <div className="text-center">
-              <Image
-                src="/google-business-profile/resultado-google-my-bussines-local-pack-valparaiso-cafe.jpg"
-                width={350}
+ <Image
+                src="/google-business-profile/captura-de-resultado-local-pack-WILP-Coffe-Google-my-bussines-profile.png"
+                width={500}
                 height={350}
-                alt="Ficha de Google Business"
+                alt="Resultados Local Pack"
                 className="rounded-lg shadow-lg mx-auto"
               />
-              <Paragraph className="mt-4">
-                Lo que tienes aquí es un lead calificado.  puedes agendar una cita por llamada telefónica o un pedido.
+              <Paragraph>Google maps es la plataforma de mapas más utilizada a nivel mundial con más de 2 mil millones 
+                de usuarios al mes, por esta razón no puedes ignorar esta información que te ayudará 
+                a no perder clientes potenciales para tu negocio local en Valparaíso o Viña del mar.
               </Paragraph>
-            </div>
+         
+                    <Paragraph>Si hemos entendido bien Google Maps nos está entregando búsquedas de leads muy calificados 
+                      puesto que estos tienen la intención de búsqueda muy clara, 
+                      están buscando cómo llegar a tu negocio para adquirir lo que ofreces</Paragraph>
 
-            <div className="flex flex-col items-center gap-4">
-              <Image
-                src="/google-business-profile/resultado-google-my-bussines-local-pack-valparaiso-icono-como-llegar.jpg"
-                width={180}
-                height={180}
-                alt="Icono cómo llegar"
-                className="rounded-full shadow-lg"
-              />
-              <Paragraph>
-                 No ignores esto: una parte importante de las llamadas y visitas que reciben las tiendas hoy viene directamente desde Google Maps. 
-              </Paragraph>
-              <Rating>★★★★★</Rating>
-              <Paragraph>Déjame contarte —sin vueltas— cómo puedes aprovecharlo tú también y dejar de perder los clientes que están en la calle buscando negocios en sus celulares.</Paragraph>
-            </div>
-            <div className="text-center space-y-6">
-              <Paragraph>
-                Te invito a descargar mi libro electrónico completamente gratis. Es un Check List de todo lo que necesitas para poder rankear en las primeras búsquedas con tu negocio local.
-              </Paragraph>
-              <Image
-                src="/google-business-profile/Gemini_Generated_Image_intvqtintvqtintv.png"
-                width={250}
-                height={250}
-                alt="E-book cover"
-                className="rounded-lg shadow-lg mx-auto"
-              />
-              <Button href="/leandro">GRATIS</Button>
+
+                    <Paragraph>Según Google 76% de las personas que buscan un negocio local en Google Maps lo visitan en menos de 24 horas. </Paragraph>
+                    <Paragraph>Déjame mostrarte algunas métricas para ilustrar mejor lo que quiero que comprendas sobre esta herramienta que algunos negocios aprovechan muy bien. </Paragraph>
+                    <Paragraph>Este número nos indica las interacciones que los usuarios han realizado es un determinado periodo de tiempo, esta metriaetrica es un resumen de todas 
+                      las interacciones realizadas por los usuarios en nuestro perfil de negocio.</Paragraph>
+                      <ul>
+      <li>Llamadas: Número de veces que se hizo clic en el botón de llamar. Estas llamadas son reales.</li>
+
+<li>Solicitudes de Indicaciones: Veces que se pidió la ruta o instrucciones para llegar a tu ubicación.</li>
+<li>Visitas al sitio web: Veces que se hizo clic en el enlace de tu sitio web.</li>
+<li>
+Búsquedas: Los términos que las personas usaron para encontrar tu negocio.  </li>
+<li>Vistas (Impresiones): Cuántas personas vieron tu Perfil de Negocio en la Búsqueda o en Maps.</li>
+
+                      </ul>
+
             </div>
           </div>
+
+          <Paragraph>Y una de las más relevantes de todas son las reseñas puesto que más del 90% de los consumidores leen reseñas en línea (incluidas las de Google Maps) antes de decidir dónde comprar o comer, lo que subraya la importancia del Perfil de Negocio de Google.
+
+Se proyectó que la región de Valparaíso recibirá a cerca de 500.000 turistas extranjeros al cierre de la temporada estival 2024-2025.
+
+Y todo extranjero que quiere conocer una ciudad buscará en Google Maps y es ese lugar donde tú tienes que estar y para eso he creado este eBook completamente gratis con un check list de todo lo que necesitas para mejorar tu posición en Google maps. Descargalo aquí 
+</Paragraph>
         </Section>
       
-        <Section>
-          <div className="text-center max-w-4xl mx-auto space-y-6">
-            <H2>Aquí está la oportunidad que casi nadie está aprovechando.</H2>
-            <Paragraph>
-             Una ficha optimizada + contenido profesional …puede llevar un negocio desde la posición 20 al Top 3 del mapa.
-              Y en la Quinta Región, muy pocos lo están haciendo bien. Ese es tu momento de ventaja.
-            </Paragraph>
-          </div>
-        </Section>
         
       </Container>
     </main>
